@@ -9,9 +9,9 @@ for an example of how to embed the feed into a webpage, open the index.html file
 ### motion.conf  
 this example config runs a feed on port 8081.  
 it will accept connections from any client on the lan.  
-the feed runs at a resolution of 640x480 @ 15fps.
-all overlay text is removed.
-picture and movie output disabled.
+the feed runs at a resolution of 640x480 @ 15fps.  
+all overlay text is removed.  
+picture and movie output disabled.  
 
 ### index.html  
 this is an example of a basic html tag that can be used to embed the camera stream into a web page.  the camera feed is "thumbnailed" (control size with 'height') and launches a new window at full resolution (640x480) on click.  if motion is not running, and there is no camera feed, the alt="" text keeps the page from rendering a broken image.  
