@@ -1,0 +1,2 @@
+#start webcam without motion detection (port 8081)
+sudo motion -m -c /etc/motion/webcam.conf
